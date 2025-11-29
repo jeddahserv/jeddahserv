@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="تواصل مع مكتب الإنجاز للخدمات العامة في جدة عبر الهاتف أو البريد الإلكتروني أو واتساب">
+  <title>تواصل معنا - مكتب الإنجاز للخدمات العامة</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">مكتب الإنجاز</a>
+        
+        <ul class="nav-menu">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li class="dropdown">
+            <button class="dropdown-toggle">
+              خدماتنا
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="dropdown-menu">
+              <a href="absher-passport-services.html">خدمات الجوازات وأبشر</a>
+              <a href="mol-qiwa-services.html">خدمات مكتب العمل (قوى)</a>
+              <a href="gosi-services.html">التأمينات الاجتماعية</a>
+              <a href="balady-services.html">خدمات البلدية (بلدي)</a>
+              <a href="chamber-of-commerce.html">الغرفة التجارية</a>
+              <a href="najiz-services.html">منصة ناجز</a>
+              <a href="mudad-services.html">منصة مدد</a>
+              <a href="musaned-services.html">خدمات مساند</a>
+              <a href="business-center.html">المركز السعودي للأعمال</a>
+            </div>
+          </li>
+          <li><a href="blog.html">المدونة</a></li>
+          <li><a href="about.html">من نحن</a></li>
+          <li><a href="contact.html">تواصل معنا</a></li>
+          <li><a href="https://wa.me/96774786786" target="_blank" class="btn btn-primary">واتساب</a></li>
+        </ul>
+        
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient py-5">
+    <div class="container">
+      <div class="text-center">
+        <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem;">تواصل معنا</h1>
+        <p style="font-size: 1.125rem; color: var(--text-muted);">نحن هنا لخدمتك، تواصل معنا عبر أي من الوسائل التالية</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- معلومات التواصل -->
+  <section class="py-5">
+    <div class="container">
+      <div class="grid grid-4 mb-5">
+        <div class="card text-center">
+          <div class="card-icon" style="margin: 0 auto 1rem;">
+            <i class="fas fa-phone"></i>
+          </div>
+          <h3>الهاتف</h3>
+          <a href="tel:+96774786786" style="color: var(--text-muted); text-decoration: none;">+967 74 786 786</a>
+        </div>
+
+        <div class="card text-center">
+          <div class="card-icon" style="margin: 0 auto 1rem;">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3>البريد الإلكتروني</h3>
+          <a href="mailto:info@alinjaz-jeddah.sa" style="color: var(--text-muted); text-decoration: none; font-size: 0.875rem;">info@alinjaz-jeddah.sa</a>
+        </div>
+
+        <div class="card text-center">
+          <div class="card-icon" style="margin: 0 auto 1rem;">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>الموقع</h3>
+          <p style="color: var(--text-muted); font-size: 0.875rem;">جدة، المملكة العربية السعودية</p>
+        </div>
+
+        <div class="card text-center">
+          <div class="card-icon" style="margin: 0 auto 1rem;">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>أوقات العمل</h3>
+          <p style="color: var(--text-muted); font-size: 0.875rem;">السبت - الخميس<br>9:00 ص - 5:00 م</p>
+        </div>
+      </div>
+
+      <!-- نموذج التواصل -->
+      <div class="grid grid-2" style="align-items: start;">
+        <div>
+          <h2 class="mb-3">أرسل لنا رسالة</h2>
+          <p class="text-muted mb-4">املأ النموذج التالي وسنتواصل معك في أقرب وقت ممكن</p>
+          
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">الاسم الكامل</label>
+              <input type="text" id="name" class="form-control" placeholder="أدخل اسمك الكامل" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">رقم الجوال</label>
+              <input type="tel" id="phone" class="form-control" placeholder="05xxxxxxxx" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">البريد الإلكتروني</label>
+              <input type="email" id="email" class="form-control" placeholder="example@email.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">الرسالة</label>
+              <textarea id="message" class="form-control" placeholder="اكتب رسالتك هنا..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              <i class="fas fa-paper-plane"></i>
+              إرسال عبر واتساب
+            </button>
+          </form>
+        </div>
+
+        <div style="position: relative; height: 500px; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-xl);">
+          <img src="images/jeddah-city.jpg" alt="جدة" style="width: 100%; height: 100%; object-fit: cover;">
+          <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.6), transparent); display: flex; align-items: flex-end; padding: 2rem;">
+            <div style="color: white;">
+              <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">زورنا في جدة</h3>
+              <p style="color: rgba(255,255,255,0.9);">نخدم جميع مناطق وأحياء مدينة جدة</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- واتساب CTA -->
+  <section class="bg-gradient py-5">
+    <div class="container text-center">
+      <h2 class="mb-3">تواصل سريع عبر واتساب</h2>
+      <p class="text-muted mb-4" style="font-size: 1.125rem;">للحصول على رد فوري، تواصل معنا مباشرة عبر واتساب</p>
+      <a href="https://wa.me/96774786786" target="_blank" class="btn btn-primary btn-lg">
+        <i class="fab fa-whatsapp"></i>
+        فتح واتساب
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>مكتب الإنجاز</h3>
+          <p>مكتب متخصص في تقديم جميع الخدمات الحكومية في جدة بسرعة واحترافية عالية.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="services.html">خدماتنا</a></li>
+            <li><a href="blog.html">المدونة</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>خدماتنا</h3>
+          <ul>
+            <li><a href="absher-passport-services.html">خدمات الجوازات وأبشر</a></li>
+            <li><a href="mol-qiwa-services.html">مكتب العمل (قوى)</a></li>
+            <li><a href="gosi-services.html">التأمينات الاجتماعية</a></li>
+            <li><a href="balady-services.html">البلدية (بلدي)</a></li>
+            <li><a href="najiz-services.html">منصة ناجز</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>تواصل معنا</h3>
+          <ul>
+            <li><i class="fas fa-phone"></i> +967 74 786 786</li>
+            <li><i class="fas fa-envelope"></i> info@alinjaz-jeddah.sa</li>
+            <li><i class="fas fa-map-marker-alt"></i> جدة، المملكة العربية السعودية</li>
+            <li>
+              <a href="https://wa.me/96774786786" target="_blank" style="color: #25D366;">
+                <i class="fab fa-whatsapp"></i> واتساب
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 مكتب الإنجاز للخدمات العامة. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
